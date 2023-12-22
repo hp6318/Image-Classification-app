@@ -44,7 +44,7 @@ if st.checkbox("Show Classes"):
     st.write(label_name)
 
 # File uploader allows user to add their own image
-uploaded_file = st.file_uploader(label="Upload an image",
+uploaded_file = st.file_uploader(label="Upload an image you wish to classify",
                                  type=["png", "jpeg", "jpg"])
 
 session_state = st.session_state
