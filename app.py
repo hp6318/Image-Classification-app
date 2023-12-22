@@ -23,7 +23,7 @@ def make_prediction(img,model_version,label_dict):
     pred_label=label_dict[str(pred_lab+1)]
     return img_tensor,pred_label
 
-st.title("Know what's in the image")
+st.title("Let's check what the image contains")
 
 # Pick the model version
 choose_model = st.sidebar.selectbox(
