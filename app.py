@@ -27,7 +27,7 @@ st.title("Let's check who is in the image!")
 
 # Pick the model version
 choose_model = st.sidebar.selectbox(
-    "Pick model you'd like to use",
+    "Pick a model you'd like to use",
     ("Model 1 - LeNet5", 
      "Model 2 - LeNet5 with Batch Normalization") 
 )
